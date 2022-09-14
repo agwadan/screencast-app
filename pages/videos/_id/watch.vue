@@ -1,10 +1,12 @@
 <template>
-  <h1>Videos</h1>
+  <div>
+    <h1> Watching {{video.title}}</h1>
+  </div>
 </template>
 
 <script>
 export default {
- 
+ props: ['video']
 }
 </script>
 

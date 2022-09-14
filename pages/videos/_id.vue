@@ -1,12 +1,11 @@
 <template>
-  <h2>I want to watch {{video.title}} again. It was an awesome movie</h2>
+  <nuxt-child :video='video'/>
 </template>
 
 <script>
 export default {
-  
 /* Data containng the videos */
-  data() {
+data() {
     return { 
       videos: [{
         id: 1,
